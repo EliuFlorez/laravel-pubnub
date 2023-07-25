@@ -1,0 +1,27 @@
+{
+    "name": "eliuflorez/laravel-pubnub",
+    "type": "library",
+    "description": "Pubnub event broadcast driver for Laravel/Lumen",
+    "keywords": [
+        "pubnub",
+        "laravel",
+        "lumen"
+    ],
+    "homepage": "https://github.com/EliuFlorez/laravel-pubnub",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliu Florez",
+            "email": "eliufz@gmail.com",
+            "homepage": "https://github.com/EliuFlorez"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PubNub\\PubnubDriver\\": "src/"
+        }
+    },
+    "require": {
+        "pubnub/pubnub": "^6.0"
+    } 
+}
